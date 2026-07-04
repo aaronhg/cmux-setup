@@ -4,3 +4,4 @@ font-size = 15
 font-thicken = true
 adjust-cell-height = +10%
 window-padding-x = 8
+cursor-style-blink = false
