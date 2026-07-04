@@ -7,8 +7,7 @@
     "reorderOnNotification": false,
     "openSupportedFilesInCmux": false,
     "openMarkdownInCmuxViewer": false,
-    "sendAnonymousTelemetry": false,
-    "confirmQuit": "never"
+    "sendAnonymousTelemetry": false
   },
   "sidebar": {
     "hideAllDetails": false,
