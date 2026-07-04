@@ -1,5 +1,7 @@
 # cmux terminal setup
 
+Tested with cmux 0.64.17.
+
 ## Prerequisites
 
 - [cmux](https://cmux.com) installed
