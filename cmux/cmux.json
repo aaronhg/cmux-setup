@@ -7,7 +7,8 @@
     "reorderOnNotification": false,
     "openSupportedFilesInCmux": false,
     "openMarkdownInCmuxViewer": false,
-    "sendAnonymousTelemetry": false
+    "sendAnonymousTelemetry": false,
+    "confirmQuit": "never"
   },
   "sidebar": {
     "hideAllDetails": false,
@@ -28,7 +29,10 @@
     "showInMenuBar": false,
     "unreadPaneRing": false,
     "paneFlash": false,
-    "sound": "none"
+    "sound": "none",
+    "agentPermissionPrompt": false,
+    "agentIdleReminder": false,
+    "agentTurnComplete": "never"
   },
   "terminal": {
     "autoResumeAgentSessions": false
@@ -42,5 +46,12 @@
     "openTerminalLinksInCmuxBrowser": false,
     "interceptTerminalOpenCommandInCmuxBrowser": false,
     "showSearchSuggestions": false
+  },
+  "automation": {
+    "ampIntegration": false,
+    "cursorIntegration": false,
+    "geminiIntegration": false,
+    "kiroIntegration": false,
+    "claudeCodeIntegration": false
   }
 }

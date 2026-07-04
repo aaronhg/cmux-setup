@@ -33,10 +33,12 @@ echo "cmux.json installed"
 CMUX=$(command -v cmux || echo "/Applications/cmux.app/Contents/Resources/bin/cmux")
 if [ -x "$CMUX" ] && "$CMUX" ping >/dev/null 2>&1; then
   "$CMUX" themes set --dark "GitHub Dark Dimmed Zed"
+  "$CMUX" disable-browser
   "$CMUX" reload-config
   echo "done"
 else
   echo "cmux is not running; open cmux and run:"
   echo "    cmux themes set --dark \"GitHub Dark Dimmed Zed\""
+  echo "    cmux disable-browser"
   echo "    cmux reload-config"
 fi
