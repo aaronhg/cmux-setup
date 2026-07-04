@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/web/data/cmux.schema.json",
+  "schemaVersion": 1,
+  "app": {
+    "minimalMode": true,
+    "keepWorkspaceOpenWhenClosingLastSurface": true,
+    "reorderOnNotification": false,
+    "openSupportedFilesInCmux": false,
+    "openMarkdownInCmuxViewer": false,
+    "sendAnonymousTelemetry": false
+  },
+  "sidebar": {
+    "hideAllDetails": false,
+    "showBranchDirectory": true,
+    "pathLastSegmentOnly": true,
+    "showPullRequests": false,
+    "makePullRequestsClickable": false,
+    "showPorts": false,
+    "showNotificationMessage": false,
+    "showLog": false,
+    "showProgress": false,
+    "showCustomMetadata": false,
+    "showSSH": false,
+    "watchGitStatus": false
+  },
+  "notifications": {
+    "dockBadge": false,
+    "showInMenuBar": false,
+    "unreadPaneRing": false,
+    "paneFlash": false,
+    "sound": "none"
+  },
+  "terminal": {
+    "autoResumeAgentSessions": false
+  },
+  "shortcuts": {
+    "bindings": {
+      "groupSelectedWorkspaces": ""
+    }
+  },
+  "browser": {
+    "openTerminalLinksInCmuxBrowser": false,
+    "interceptTerminalOpenCommandInCmuxBrowser": false,
+    "showSearchSuggestions": false
+  }
+}
